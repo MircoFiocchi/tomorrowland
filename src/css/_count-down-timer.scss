@@ -6,6 +6,7 @@
   justify-content: space-around;
   position: absolute;
   width: 60%;
+  margin-top: 10px;
 
   .countdown__card {
     width: 20%;
@@ -46,6 +47,9 @@
         place-items: center;
         font-size: 8vw;
         color: $white;
+        background: #0c0101;
+        opacity: 0.7;
+        border-radius: 20px;
         &::before {
           content: '';
           position: absolute;
@@ -74,9 +78,8 @@
 @media only screen and (max-width: 600px) {
   .countdown__container {
     text-align: center;
-    margin-bottom: 20px;
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
     width: 100%;
   }
 }
